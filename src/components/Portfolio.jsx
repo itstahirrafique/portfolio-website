@@ -1,9 +1,9 @@
 const Portfolio = () => {
   return (
-    <div className="lg:px-20 lg:py-32 px-4 py-20">
-      <div className="flex flex-col gap-6 lg:gap-20">
+    <div className="lg:px-20 lg:py-32 px-4 py-10">
+      <div className="flex flex-col  gap-6 lg:gap-20">
         <div className="flex flex-col sm:flex-row justify-between gap-4">
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-3 ">
             <h5 className="text-12 font-semibold">Recent Projects</h5>
             <h2 className="text-18 font-bold">My Portfolio</h2>
           </div>
@@ -16,7 +16,7 @@ const Portfolio = () => {
         </div>
 
         <div className="flex flex-col sm:justify-center sm:items-center sm:flex-row gap-4">
-          <div className="image-project rounded-md flex flex-col gap-4 sm:gap-10 shadow-md">
+          <div className="image-project rounded-md flex flex-col gap-4 sm:gap-10 shadow-md pb-4">
             <img
               src="../assets/images/ahouse.png"
               alt=""
@@ -29,14 +29,16 @@ const Portfolio = () => {
                 Suspendisse varius enim in eros.
               </h5>
               <div className="flex gap-2 items-center">
-                <p className="underline underline-offset-2">View In Dribbble</p>
+                <p className="underline underline-offset-8 decoration-light">
+                  View In Dribbble
+                </p>
                 <i className="ri-arrow-right-up-line text-2xl"></i>
               </div>
             </div>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4  ">
-            <div className="image-project rounded-md flex flex-col gap-4 sm:gap-10 shadow-md">
+            <div className="image-project rounded-md flex flex-col gap-4 sm:gap-10 shadow-md pb-4">
               <img
                 src="../assets/images/appdashbord.png"
                 alt=""
@@ -49,7 +51,7 @@ const Portfolio = () => {
                   Suspendisse varius enim in eros.
                 </h5>
                 <div className="flex gap-2 items-center">
-                  <p className="underline underline-offset-2">
+                  <p className="underline underline-offset-8 decoration-light ">
                     View In Dribbble
                   </p>
                   <i className="ri-arrow-right-up-line text-2xl"></i>
@@ -57,8 +59,9 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
+
           <div className="flex flex-col sm:flex-row gap-4  ">
-            <div className="image-project rounded-md flex flex-col gap-4 sm:gap-10 shadow-md">
+            <div className="image-project rounded-md flex flex-col gap-4 sm:gap-10 shadow-md pb-4">
               <img
                 src="../assets/images/rent.png"
                 alt=""
@@ -71,7 +74,7 @@ const Portfolio = () => {
                   Suspendisse varius enim in eros.
                 </h5>
                 <div className="flex gap-2 items-center">
-                  <p className="underline underline-offset-2">
+                  <p className="underline underline-offset-8 decoration-light ">
                     View In Dribbble
                   </p>
                   <i className="ri-arrow-right-up-line text-2xl"></i>

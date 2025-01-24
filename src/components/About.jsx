@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="lg:px-20 lg:py-20 px-4">
+    <div className="lg:px-20 lg:py-20 px-4 py-10">
       <div className="lg:flex-row lg:gap-10 flex flex-col gap-4">
         <div className="flex justify-center">
           <img
@@ -10,7 +10,7 @@ const About = () => {
           />
         </div>
         <div className="flex justify-center flex-col gap-3 ">
-          <div className="flex flex-col  gap-3">
+          <div className="flex flex-col  gap-3 text-centerz">
             <h5 className="font-semibold">About</h5>
             <h2 className="font-bold">About Me </h2>
           </div>

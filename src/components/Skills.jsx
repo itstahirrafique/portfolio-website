@@ -1,8 +1,8 @@
 const Skills = () => {
   return (
-    <div className="lg:px-20 px-4 py-7 lg:py-36">
+    <div className="lg:px-20 px-4 py-10 lg:py-36">
       <div className="flex flex-col gap-4 lg:gap-14">
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 text-centerz">
           <h5 className="font-semibold">My Skills</h5>
           <h2 className="font-bold">My Expertise</h2>
         </div>

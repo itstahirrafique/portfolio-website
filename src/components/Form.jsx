@@ -1,8 +1,8 @@
 const Form = () => {
   return (
-    <div className="lg:px-20 lg:py-20 px-4 py-5">
+    <div className="lg:px-20 lg:py-20 px-4 py-10">
       <div className="flex flex-col gap-4 sm:gap-6 lg:gap-14 sm:items-center">
-        <div className="flex flex-col justify-center lg:items-center sm:text-center">
+        <div className="flex flex-col justify-center lg:items-center text-center">
           <h5 className="font-semibold">Get In Touch</h5>
           <h2 className="font-bold">Contact me</h2>
           <h4 className="text-muted">

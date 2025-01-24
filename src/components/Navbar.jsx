@@ -4,13 +4,13 @@ const Navbar = () => {
   const [menuopen, setMenuOpen] = useState(false);
 
   return (
-    <div className="shadow-md w-full lg:px-20 lg:py-4">
+    <div className="shadow-md w-full lg:px-20 lg:py-4 px-2 py-1">
       <div className="lg:flex items-center justify-between gap-20  px-3 py-2">
         <div>
           <img
             src="./assets/images/navbarlogo.svg"
             alt="Logo"
-            className="min-w-32"
+            className="max-w-32"
           />
         </div>
 
@@ -24,7 +24,7 @@ const Navbar = () => {
           <ul
             className={`lg:flex lg:items-center lg:gap-10 xl:gap-44 gap-4 left-0 w-full ${
               menuopen
-                ? "absolute bg-light text-inverted py-5 px-8 z-50 flex flex-col gap-4"
+                ? "absolute bg-light text-inverted py-5 px-8 z-50 flex flex-col gap-4 top-16"
                 : "hidden z-[-20] "
             }`}
           >

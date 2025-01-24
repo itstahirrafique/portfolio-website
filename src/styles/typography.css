@@ -59,11 +59,11 @@ p {
 
 @media (max-width: 1024px) {
   h1 {
-    font-size: 64px;
+    font-size: 56px;
   }
 
   h2 {
-    font-size: 54px;
+    font-size: 48px;
   }
 
   h3 {
@@ -134,9 +134,9 @@ p {
   .para {
     font-size: 14px;
   }
-  .image-project {
+  /* .image-project {
     max-width: 210px;
-  }
+  } */
   .image-width-header {
     max-width: 450px;
   }
@@ -148,11 +148,7 @@ p {
   }
 }
 
-@media (max-width: 650px) {
-  .image-project {
-    max-width: 310px;
-  }
-}
+
 
 @media (max-width: 590px) {
   h1 {
@@ -198,5 +194,8 @@ p {
   }
   .input-size {
     font-size: 14px;
+  }
+  .text-centerz{
+    text-align: center;
   }
 }
