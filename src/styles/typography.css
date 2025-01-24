@@ -1,0 +1,202 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 74px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 21px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.btn-nav {
+  font-size: 21px;
+}
+
+.input-size {
+  font-size: 21px;
+}
+
+.para {
+  font-size: 18px;
+}
+
+.line-height-lg {
+  line-height: 100%;
+}
+
+.line-height-sm {
+  line-height: 90%;
+}
+
+.line-height-s {
+  line-height: 80%;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 64px;
+  }
+
+  h2 {
+    font-size: 54px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  .btn-nav {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  .para {
+    font-size: 16px;
+  }
+
+  .image-width-header {
+    max-width: 450px;
+  }
+  .image-about {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 1023px) {
+  .btn {
+    display: none;
+  }
+}
+
+@media (max-width: 783px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  .btn-nav {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+  .para {
+    font-size: 14px;
+  }
+  .image-project {
+    max-width: 210px;
+  }
+  .image-width-header {
+    max-width: 450px;
+  }
+  .image-about {
+    max-width: 500px;
+  }
+  .input-size {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 650px) {
+  .image-project {
+    max-width: 310px;
+  }
+}
+
+@media (max-width: 590px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+  .btn-nav {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+  .para {
+    font-size: 14px;
+  }
+
+  .image-project {
+    max-width: 300px;
+  }
+  .image-width-header {
+    max-width: 350px;
+  }
+
+  .image-about {
+    max-width: 300px;
+  }
+  .input-size {
+    font-size: 14px;
+  }
+}
