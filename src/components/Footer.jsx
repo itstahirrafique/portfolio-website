@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="h-[1px] w-full bg-muted"></div>
         <div className="flex flex-col gap-4 sm:flex-row justify-between sm:gap-14">
           <div>
-            <p>Made with 💖 by Airdokan</p>
+            <p className="bg-slate-400 text-white font-semibold">Made with 💖 by Tahir...!🙊</p>
           </div>
           <div className="flex flex-col gap-4 sm:flex-row sm:gap-14">
             <p>Privacy Policy</p>

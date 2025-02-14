@@ -7,7 +7,7 @@ export default {
 
   theme: {
     extend: {
-      screens: { 'tablet': '768px' }, 
+    
       colors: {
         primary: 'var(--primary)',
         secondary: 'var(--secondary)',
